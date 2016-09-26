@@ -1,6 +1,6 @@
 # Tinc for Docker
 
-only 6mb size!
+Only 3MB compressed!
 
 ## Usage
 ```
@@ -10,5 +10,5 @@ docker run -d \
     --device=/dev/net/tun \
     --cap-add NET_ADMIN \
     --volume /srv/tinc:/etc/tinc \
-    aooj/tinc start -D
+    slang800/tinc start -D
 ```
