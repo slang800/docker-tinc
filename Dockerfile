@@ -1,5 +1,5 @@
-FROM alpine:3.2
-MAINTAINER AooJ <aooj@n13.cz>
+FROM alpine:3.4
+MAINTAINER Sean Lang <slang800@gmail.com>
 
 RUN apk add --update tinc && rm -rf /var/cache/apk/*
 
