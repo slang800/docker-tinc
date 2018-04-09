@@ -6,5 +6,5 @@ RUN apk add --no-cache tinc-pre && rm -rf /var/cache/apk/*
 EXPOSE 655/tcp 655/udp
 VOLUME /etc/tinc
 
-ENTRYPOINT ["/usr/sbin/tincd", "-D"]
+ENTRYPOINT ["/usr/sbin/tinc"]
 CMD ["start", "-U", "nobody"]
