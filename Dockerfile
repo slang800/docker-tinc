@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.7
 MAINTAINER Sean Lang <slang800@gmail.com>
 
 RUN apk add --update tinc && rm -rf /var/cache/apk/*
